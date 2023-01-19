@@ -1,0 +1,8 @@
+.lead__content {
+  margin-top: 64px;
+  /* width: 76.875%; */
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

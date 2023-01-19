@@ -1,0 +1,13 @@
+.place {
+  list-style-type: none;
+  justify-content: center;
+  margin: 80px auto 0 auto;
+  display: grid;
+  grid-template-columns: calc(100vw*0.359375) calc(100vw*0.378125);
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place:first-of-type {
+  margin-top: 92px;
+}

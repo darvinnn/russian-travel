@@ -1,272 +1,41 @@
 @import url(../fonts/fonts.css);
-
-.page {
-  background-color: #2A2C2F;
-  font-family: 'Inter';
-}
-
-.text {
-  margin: 0;
-  color: #fff;
-  font-weight: normal;
-}
-
-.header {
-  height: 136px;
-}
-
-.logo {
-  position: absolute;
-  top: 28px;
-  left: 48px;
-}
-
-.language {
-  position: absolute;
-  top: 46px;
-  right: 48px;
-  display: flex;
-  font-size: 24px;
-  line-height: 28px;
-  gap: 18px;
-}
-
-.language__ru {
-  margin: 0;
-  text-decoration: underline;
-  text-decoration-color: #fff;
-}
-
-.language__en {
-  margin: 0;
-  text-decoration: none;
-}
-
-.lead {
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
-  width: 76.875%;
-}
-
-.lead__title {
-  font-weight: 900;
-  font-size: 96px;
-  text-align: center;
-  width: 720px;
-}
-
-.lead__subtitle {
-  margin-top: 32px;
-  font-size: 30px;
-  line-height: 36px;
-  width: 640px;
-  text-align: center;
-}
-
-.lead__content {
-  margin-top: 64px;
-  /* width: 76.875%; */
-  width: 984px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.lead__image {
-  width: 100%
-}
-
-.lead__caption {
-  text-transform: uppercase;
-  width: 158px;
-  font-size: 10px;
-  line-height: 14px;
-}
-
-.link {
-  transition: ease .2s;
-}
-
-.link:hover {
-  opacity: .8;
-}
-
-.intro {
-  margin: 92px auto 0 auto;
-  width: 984px;
-  display: flex;
-  flex-direction: column;
-}
-
-.intro__title {
-  width: 690px;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-}
-
-
-.intro__text {
-  margin-top: 40px;
-  width: 690px;
-  font-size: 16px;
-  line-height: 163%;
-}
-
-.intro__list {
-  margin-top: 33px;
-  list-style-type: none;
-  padding: 0;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.intro__number {
-  font-weight: normal;
-}
-
-.photo-grid {
-  width: 92.5%;
-  margin: 92px auto 0 auto;
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(auto-fit, 1fr);
-}
-
-.photo-grid__item {
-  width: 100%;
-}
-
-.place {
-  list-style-type: none;
-  justify-content: center;
-  margin: 80px auto 0 auto;
-  display: grid;
-  grid-template-columns: calc(100vw*0.359375) calc(100vw*0.378125);
-  column-gap: 40px;
-  row-gap: 48px;
-}
-
-.place:first-of-type {
-  margin-top: 92px;
-}
-
-.places__title {
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-}
-
-.places__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.places__website {
-  align-self: end;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.places__url-heading {
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 12px;
-  color: #aaa;
-}
-
-.places__link {
-  text-decoration: underline;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.places__paragraph {
-  margin-bottom: 26px;
-  font-size: 18px;
-  line-height: 163%;
-}
-
-.places__paragraph:last-of-type {
-  margin-bottom: 0;
-}
-
-.cover {
-  width: 92.5%;
-  margin: 92px auto 0 auto;
-  background-image: url(../images/cover-trains.jpg);
-  min-height: 640px;
-  max-height: 740px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.cover__title {
-  width: 540px;
-  text-align: center;
-  z-index: 1;
-  pointer-events: none;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-}
-
-.cover__subtitle {
-  margin-top: 32px;
-  width: 360px;
-  text-align: center;
-  z-index: 1;
-  pointer-events: none;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.cover__overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #2A2C2F;
-  opacity: .3;
-}
-
-.cover__overlay:hover {
-  opacity: .8;
-}
-
-.footer {
-  margin: 92px auto 0 auto;
-  padding-bottom: 24px;
-  width: 92.5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__links {
-  display: flex;
-  gap: 18px;
-}
-
-.footer__link {
-  font-size: 16px;
-  line-height: 18px;
-  text-decoration: none;
-}
-
-.footer__copyright {
-  font-size: 14px;
-  line-height: 16px;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/language/language.css);
+@import url(../blocks/language/__ru/language__ru.css);
+@import url(../blocks/language/__en/language__en.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__content/lead__content.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__number/intro__number.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__url-heading/places__url-heading.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
 
 @media (max-width:1024px) {
   .place {
@@ -431,5 +200,9 @@
 
   .cover {
     min-height: 200px;
+  }
+
+  .cover__subtitle {
+    margin-top: 16px;
   }
 }

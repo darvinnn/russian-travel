@@ -3,9 +3,9 @@
   object-fit: cover;
 }
 
-@media (max-width:730px) {
+@media (max-width:500px) {
   .place__image {
     width: 100vw;
-    transform: translate(-16px, 0);
+    transform: translateX(calc(-1*((100vw - ((288/320)*100vw))/2)));
   }
 }

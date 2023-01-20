@@ -6,6 +6,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 @media (max-width:1024px) {
@@ -24,6 +25,9 @@
 @media (max-width:730px) {
   .footer {
     flex-direction: column;
+    align-items: flex-start;
     gap: 48px;
+    padding-left: 16px;
+    margin: 64px 0 0 0;
   }
 }

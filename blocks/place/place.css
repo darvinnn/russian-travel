@@ -26,9 +26,22 @@
     grid-template-columns: calc((340/768)*100vw) calc((352/768)*100vw);
     column-gap: 28px;
     max-width: 720px;
+    margin-top: 73px;
   }
 
   .place:first-of-type {
     margin-top: 88px;
+  }
+}
+
+@media (max-width:640px) {
+  .place {
+    grid-template-columns: calc((288/320)*100vw);
+    row-gap: 32px;
+    margin-top: 50px;
+  }
+
+  .place:first-of-type {
+    margin-top: 64px;
   }
 }

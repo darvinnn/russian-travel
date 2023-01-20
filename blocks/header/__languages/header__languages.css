@@ -11,3 +11,10 @@
     right: 24px;
   }
 }
+
+@media (max-width:640px) {
+  .header__languages {
+    right: 16px;
+    top: 30px;
+  }
+}

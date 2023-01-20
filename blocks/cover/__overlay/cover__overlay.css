@@ -36,3 +36,9 @@
     padding: 115px 0;
   }
 }
+
+@media (max-width:768px) {
+  .cover__overlay {
+    padding: 33px 0;
+  }
+}

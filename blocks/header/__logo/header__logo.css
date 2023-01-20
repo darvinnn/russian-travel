@@ -10,12 +10,11 @@
   }
 }
 
-/*
-@media (max-width:730px) {
+@media (max-width:640px) {
   .header__logo {
     width: 142px;
     height: 42px;
     top: 16px;
     left: 16px;
   }
-} */
+}

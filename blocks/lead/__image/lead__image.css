@@ -1,3 +1,9 @@
 .lead__image {
   width: 100%;
 }
+
+@media (max-width:936px) {
+  .lead__image {
+    width: 100vw;
+  }
+}

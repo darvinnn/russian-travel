@@ -4,3 +4,12 @@
   margin: 0;
   text-decoration: none;
 }
+
+@media (max-width:730px) {
+  .header__language {
+    font-size: 18px;
+    line-height: 20px;
+    top: 30px;
+    right: 16px;
+  }
+}

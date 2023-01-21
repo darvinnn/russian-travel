@@ -1,9 +1,7 @@
 .header__languages {
   display: flex;
   gap: 18px;
-  position: absolute;
-  top: 46px;
-  right: 48px;
+  transform: translateY(-6px);
 }
 
 @media (max-width:768px) {
